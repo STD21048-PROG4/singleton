@@ -5,7 +5,6 @@ public class ClassUniqueInstance {
     private int click;
 
     private ClassUniqueInstance() {
-        // Constructeur privé pour empêcher l'instanciation directe de la classe.
     }
 
     public static ClassUniqueInstance getInstance() {
