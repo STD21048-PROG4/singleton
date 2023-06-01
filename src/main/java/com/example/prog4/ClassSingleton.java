@@ -5,7 +5,6 @@ public class ClassSingleton {
     private String description;
 
     private ClassSingleton() {
-        // Constructeur privé pour empêcher l'instanciation directe de la classe.
     }
 
     public static ClassSingleton getInstance() {
